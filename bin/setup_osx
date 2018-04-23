@@ -99,7 +99,7 @@ defaults write com.apple.dock tilesize -int 60
 defaults write com.apple.dock largesize -int 85
 
 # autohide dock
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide -bool false
 
 # remove delay
 defaults write com.apple.dock autohide-delay -float 0
@@ -122,9 +122,6 @@ sudo pmset -a sms 0
 
 # Disable the crash reporter
 defaults write com.apple.CrashReporter DialogType -string "none"
-
-# Stop iTunes from responding to the keyboard media keys
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1

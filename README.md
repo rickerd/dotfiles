@@ -3,7 +3,7 @@ My dotfiles
 
 This repository contains:
 
-* My [zsh config](http://github.com/ricbra/zsh-config);
+* My [zsh config](http://github.com/rickerd/zsh-config);
 * My Git config;
 * And some other useful dotfiles.
 
@@ -13,7 +13,7 @@ Thank you William for you excellent work :).
 Installation
 ------------
 
-    $ git clone https://github.com/ricbra/dotfiles.git --recursive
+    $ git clone https://github.com/rickerd/dotfiles.git --recursive
     $ cd dotfiles && bin/install
 
 You can tweak OSX by running the following script:

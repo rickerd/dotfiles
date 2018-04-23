@@ -1,6 +1,6 @@
 [user]
-    name = Richard van den Brand
-    email = richard@vandenbrand.org
+    name = Rick de Graaff
+    email = rick@rickdegraaff.nl
 
 [color]
     ui = auto
@@ -27,9 +27,9 @@
 [core]
     ui = true
     editor = vim
-    autocrlf = false
+	autocrlf = input
     whitespace = trailing-space,space-before-tab
-	excludesfile = /Users/richard/.gitignore_global
+	excludesfile = /Users/rickdgraaff/.gitignore_global
 
 [diff "exif"]
     textconv = exiftool
